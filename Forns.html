@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <form>
+        <legend>
+        <fieldset>
+           <label>Name:</label>
+           <input type="text" name="name" placeholder="enter your full name" ><br>
+           <lable>Email:</lable>
+           <input type="email" name="email" placeholder="enter your email" required><br>
+           <lable>Number:</lable>
+           <input typr="tel" name="Number" placeholder="enter your Number" minlength="10" maxlength="12"><br>
+           <lable>Password:</lable>
+           <input type="password" name="password" placeholder="enter password" required><br>
+           <label>Courses:</label>
+           <input type="checkbox" name="course" value="CSS">CSS
+           <input type="checkbox" name="course" value="HTML">HTML
+           <input type="checkbox" name="course" value="JAVA">JAVA<br>
+           <!--Radio Button-->
+           <label>Gender:</label>
+           <input type="radio" id="m" name="gender" value="m"><label form="m">Male</label>
+           <input type="radio" id="f" name="gender" value="f"><lable form="f">Female</lable>
+
+           <h1>Type-2</h1>
+
+           <input type="radio" id="html" name="fav_language" value="HTML">
+           <label for="html">HTML</label><br>
+           <input type="radio" id="css" name="fav_language" value="CSS">
+           <label for="CSS">CSS</label><br>
+           <input type="radio" id="java" name="fav_language" value="JAVA">
+           <label for="java">JAVA</label><br>
+
+           <!--Drop Down List-->
+           <label>City:</label>
+           <select required>
+                  <option value="bnlr" >Banglore</option>
+                  <option value="chn" >Chennai</option>
+                  <option value="hyd" >Hydrabad</option>
+           </select><br>
+
+           <label>Address:</label>
+           <input type="text area" name="Address" placeholder="enter your Address" required><br>
+           <label>Address:</label>
+           <textarea name="address" cols="30" rows="10" placeholder="enter your address" required></textarea><br>
+
+           <label>Resume:</label>
+           <input type="file" required><br>
+           </select>
+
+
+           <input type="submit" value="submit">
+           <input type="reset" value="reset">
+           <button type="button"><a href="table2.html" </button>
+        </fieldset>
+        </legend>
+      </form>
+</body>
+</html>
